@@ -5,7 +5,7 @@ $(function () {
     $(".treat-button, .play-button, .exercise-button, .sleep-button").prop("disabled", true);
 
     $(".treat-button").click(function () {
-        pet_info.happiness += 2;
+        pet_info.hapiness += 2;
         pet_info.weight += 1;
         pet_info.health -= 1;
 
